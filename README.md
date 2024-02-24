@@ -21,6 +21,13 @@ This project is based on the following technologies:
 `python manage.py runserver`
 8. Start coding!
 
+## How to use IntelliJ run configurations
+The run configurations are already set up in the .idea folder. You can use them to run the server and the tests.
+1. FILE -> Project Structure -> Project -> Project SDK -> New -> Python SDK -> Add Python SDK -> Select the python interpreter
+2. FILE -> Project Structure -> Modules -> Django -> Add Content Root -> Select the project folder
+3. Run -> Edit Configurations -> Edit Configurations -> Run Server -> Change the Python interpreter to the one you just added and port number
+
+
 ## How to use the environment variables
 The environment variables are loaded from the .env file. You can access them using the `os` module.
 ```python
