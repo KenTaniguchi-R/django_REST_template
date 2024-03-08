@@ -59,3 +59,8 @@ DATABASES = {
 }
 ```
 
+## How to use Cloudflare R2
+The Cloudflare R2 uses AWS S3 to store the static files. You can change the AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY and AWS_STORAGE_BUCKET_NAME environment variables to your needs.
+Enable R2 by .env file USE_S3=True
+Then run
+`python manage.py collectstatic`
